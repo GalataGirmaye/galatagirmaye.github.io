@@ -1,68 +1,24 @@
 <html>
   <head>
   <title>Galata</title>
-  <link rel="stylesheet" href="./styles/main.css"/>
-  <link rel="icon" href="./images/me.png"/>
-  <style>
-    body{
-    height:100%;
-  }
-  div{
-        height: 100%;
-        margin:auto;
-        display:flex;
-        flex-flow:column;
-        justify-content:center;
-        align-items:center;
-        background: rgba(11, 24, 41, 0.897);
-
-  }
-
-  .me{
-      display: flex;
-      margin: auto;
-      color: rgb(118, 160, 184);
-      box-shadow: 2px 3px 4px 5px rgba(6, 91, 148, 0);
-      animation-name: pump;
-      font-size: 50px;
-      animation-duration: 3s;
-      animation-iteration-count: infinite;
-  }
-
-
-  @keyframes pump {
-    0%{
-        text-shadow: 6px 6px  rgba(105, 138, 16, 0.692);
-
-    }
-    20%{
-        text-shadow:3px 6px  rgba(255, 0, 0, 0.76);
-    }
-    40%{
-        text-shadow: 10px 1px  rgb(10, 143, 61);
-    }
-    60%{
-        text-shadow: 15px 4px  rgb(247, 160, 30);
-
-    }
-    80%{
-        text-shadow:20px 7px  rgb(122, 67, 14);
-
-    }
-    100%{
-        text-shadow: 3px 1px  rgb(15, 1, 1);
-
-    }
-
-  }
-  
-
-  </style>
+  <link rel="stylesheet" href="main.css"/>
+  <link rel="icon" href="./images/logo.png"/>
   </head>
   <body>
-  <div>
-    <h1 class="me">Galata Girmaye Darkushe</h1>
-    
+    <div class="container">
+     <div class="profile-pic">
+        <img src="./images/profile.png" alt="Profile picture"/>
+        <p class="summary">I am software engineering graduate from highly recognied university in Ethiopia, <a class="univ-link" href="http://www.aastu.edu.et/">Addis Ababa Science and Technology University</a>
+            with <strong title="3.89">very great distiniction</strong>
+        
+        </p>
+      </div>
+     
+     <div class="name">
+        <span class="name-span">Galata Girmaye Darkushe</span>
+        <span class="caption">MERN Stack Developer</span>
+      </div>
     </div>
+
   </body>
 </html>

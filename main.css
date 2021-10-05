@@ -1,0 +1,65 @@
+body{
+    height:100%;
+    padding: 0px;
+    margin: 0PX;
+  }
+
+.container{
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(5, 14, 19, 0.897);
+}
+
+.profile-pic{
+    width: fit-content;
+    height: 160px;
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row;
+}
+.profile-pic img{
+    width: 150px;
+    height: 160px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.summary{
+    text-orientation: sideways;
+    color: whitesmoke;
+    margin: auto 10px;
+    max-width: 200px;
+}
+
+.univ-link{
+    text-decoration: none;
+    color: rgba(17, 49, 231, 0.973);
+
+}
+.univ-link:hover{
+    color: cyan;
+}
+
+.name-span{
+      display: flex;
+      margin:  10px auto;
+      color: rgb(118, 160, 184);
+      box-shadow: 2px 3px 4px 5px rgba(6, 91, 148, 0);
+      font-size: 1.7rem;
+      font-family: sans-serif;
+  }
+.caption{
+    color: cadetblue;
+    margin: auto;
+}
+
+  
+
+
+  
